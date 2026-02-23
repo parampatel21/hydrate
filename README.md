@@ -29,15 +29,15 @@ It also detects when you open your laptop after a break and immediately reminds 
 ## Screenshots
 
 <p align="center">
-  <img src="screenshots/menubar.png" width="130" alt="Menu bar countdown">
-  &nbsp;&nbsp;&nbsp;
-  <img src="screenshots/dropdown.png" width="250" alt="Dropdown menu">
+  <img src="screenshots/menubar.png" width="200" alt="Menu bar countdown">
 </p>
 
 <p align="center">
-  <img src="screenshots/reminder.png" width="250" alt="Reminder dialog">
+  <img src="screenshots/dropdown.png" height="300" alt="Dropdown menu">
   &nbsp;&nbsp;&nbsp;
-  <img src="screenshots/preferences.png" width="250" alt="Preferences window">
+  <img src="screenshots/reminder.png" height="300" alt="Reminder dialog">
+  &nbsp;&nbsp;&nbsp;
+  <img src="screenshots/preferences.png" height="300" alt="Preferences window">
 </p>
 
 ## Features
