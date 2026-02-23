@@ -58,9 +58,13 @@ It also detects when you open your laptop after a break and immediately reminds 
 1. Go to [**Releases**](https://github.com/parampatel21/hydrate/releases/latest)
 2. Download `Hydrate.zip`
 3. Unzip and drag `Hydrate.app` to your **Applications** folder
-4. Open it — you'll see the water droplet in your menu bar
+4. **Important — remove the quarantine flag** (the app isn't code-signed):
+   ```bash
+   xattr -cr /Applications/Hydrate.app
+   ```
+5. Open it — you'll see the water droplet in your menu bar
 
-> On first launch, macOS may show a security prompt. Go to **System Settings > Privacy & Security** and click **Open Anyway**.
+> **Why is this needed?** macOS quarantines apps downloaded from the internet that aren't signed with an Apple Developer certificate. The command above removes that flag. You can verify the source code right here in this repo. Alternatively, you can [build from source](#build-from-source) to avoid this entirely.
 
 ### Build from source
 
